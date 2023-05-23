@@ -1,10 +1,10 @@
-import fastify from "fastify";
+import fastify from 'fastify'
 
-const app = fastify();
+const app = fastify()
 
-app.get("/hello", () => {
-  return "Hello Wolf!";
-});
+app.get('/hello', () => {
+  return 'Hello Wolf!'
+})
 
 app
   .listen({
@@ -15,7 +15,5 @@ app
   
     🐺 HTTP server running on http://localhost:3333
   
-  `);
-  });
-
-  
+  `)
+  })
